@@ -1,0 +1,33 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.egg-info/
+dist/
+build/
+
+# Node
+node_modules/
+.npm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+# Vite
+dist/ # For frontend build output (Vite)
+.vite/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# SQLite Database (if you place it in data/ later)
+data/
+*.db
+*.db-journal
+
+# IDE / OS specific
+.vscode/
+.idea/
+.DS_Store
+*.swp
